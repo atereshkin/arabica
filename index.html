@@ -21,20 +21,25 @@
   <body>
     <h1><img id="logo" src="logo.svg" alt="Беларуская Арабіца"/></h1>
     <p>Пішам беларускія тэксты арабскім алфавітам</p>
-    <div class="row">
-      <label for="source-text" class="label-p">Ваш тэкст кірыліцай:</label>
-      <textarea id="source-text" name="source-text" rows="6">Жыве Беларусь!</textarea>
+    <div id="blk-source">
+      <div class="row">
+	<label for="source-text" class="label-p">Ваш тэкст кірыліцай:</label>
+	<textarea id="source-text" name="source-text" rows="6">Жыве Беларусь!</textarea>
+      </div>
     </div>
-    <div class="row">
-      <p>Ваш тэкст арабіцай:</p>
-      <pre id="result">
-	ژِوَ بَلَرُثْ!
-      </pre>
+    <div id="blk-result">  
+      <div class="row">
+	<p>Ваш тэкст арабіцай:</p>
+	<pre id="result">
+	  ژِوَ بَلَرُثْ!
+	</pre>
+      </div>
+      <div class="row">
+	<a href="javascript:;" id="btn-copy" class="btn">Капіяваць</a>
+	<a href="javascript:;" id="btn-download-svg" class="btn">Спампаваць як выяву</a>
+      </div>
     </div>
-    <div class="row">
-      <a href="javascript:;" id="btn-copy" class="btn">Капіяваць</a>
-      <a href="javascript:;" id="btn-download-svg" class="btn">Спампаваць як выяву</a>
-    </div>
+    <div class="clear"/>      
     <div class="row">
       <h2>Што гэта і навошта?</h2>
       <p>Гэта старонка дазваляе транслітараваць тэксты на беларускую арабіцу. Напрыклад, каб надрукаваць на цішотцы, на кубку ці на іншым мерчы. Проста ўводзьце тэкст кірыліцай вышэй і старонка выдасць вам той жа тэкст арабіцай. Таксама вы сможаце спампаваць яго ў выглядзе выявы для друку. На дадзены момант транслітэрацыя карэктна працуе толькі для наркамаўкі.</p>

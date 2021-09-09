@@ -67,7 +67,11 @@ textarea { border-color:#AAA; color:#444;}
 	  white-space:pre-wrap;
 	}
 
-.btn { padding:5px 10px; border:1px solid #888; display:inline-block;}
+.btn { padding:5px 10px; border:none; display:inline-block;
+       background: #567b94;
+       color: #FFF;
+       text-decoration: none;
+     }
 
 .label-p { display:block; }
 

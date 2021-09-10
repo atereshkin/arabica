@@ -12,7 +12,8 @@ window.onload = function(){
 
     var updateText = function(){
 	sourceText = sourceTextArea.value;
-	sourceText = sourceText.replaceAll('i', 'і');
+	sourceText = sourceText.replace(/i/i, 'і');
+	
 	var p = cyrillicToPhonetic(sourceText);
 	arabicText = phoneticToArabic(p);
 	resultDiv.innerHTML = arabicText;
@@ -34,6 +35,7 @@ window.onload = function(){
     document.getElementById('btn-copy').onclick = function(){
 	navigator.clipboard.writeText(arabicText);
     };
+    
     updateText();
 
     function download(filename, text) {

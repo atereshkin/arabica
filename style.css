@@ -45,6 +45,12 @@ table {
 
 .clear { clear:both; }
 
+@font-face {
+    font-family: "Noto Sans Arabic";
+    src: url("fonts/NotoSansArabic-SemiBold.ttf") format("truetype");
+}
+
+
 body { padding:10px; font-family:Arial,sans-serif; color:#444;}
 
 #logo { width:100%; max-width:480px;}
@@ -65,6 +71,7 @@ textarea { border-color:#AAA; color:#444;}
 	  direction:rtl;
 	  text-align:center;
 	  white-space:pre-wrap;
+	  font-family:'Noto Sans Arabic', Arial, sans-serif;
 	}
 
 .btn { padding:5px 10px; border:none; display:inline-block;

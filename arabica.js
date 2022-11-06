@@ -1,5 +1,5 @@
 window.onload = function(){
-    const RENDER_URL = 'https://render-arabica-roj6lv6npq-lz.a.run.app/text-to-svg/';
+    const RENDER_URL = 'https://render-arabica-sucprry7da-lz.a.run.app/text-to-svg/';
     //const RENDER_URL = 'http://localhost:3000/text-to-svg/';
     
     var phoneticResultDiv = document.getElementById('phonetic-result');

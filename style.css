@@ -82,6 +82,12 @@ textarea { border-color:#AAA; color:#444;}
 
 .label-p { display:block; }
 
+#promo { clear:both; margin-top:30px; padding-top:10px; border-top:1px solid #DDD; font-size:13px; line-height:1.3; }
+#promo a { display:flex; align-items:center; gap:8px; color:#888; text-decoration:none; }
+#promo a:hover span { text-decoration:underline; }
+#promo img { flex:none; border-radius:5px; }
+#promo b { font-weight:bold; color:#666; }
+
 
 
 @media (min-width:1024px) {
